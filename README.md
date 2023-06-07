@@ -31,6 +31,27 @@ How to enable ci/CD?
 Build pipeline --trigger --enable the Contiune intergration 
 Release pipeline-- release --contiune deployment trigger.
 
+What is Azure Artifacts?
+
+
+What Is Deployment groups?
+
+A deployment group is a logical set of deployment target machines that have agents installed on each one. Deployment groups represent the physical environments; for example, "Dev", "Test", or "Production" environment
+
+In effect, a deployment group is just another grouping of agents, much like an agent pool.
+
+Deployment groups are only available with Classic release pipelines and are different from deployment jobs
+
+
+Deployment groups:
+
+A deployment group is a logical set of deployment target machines that have agents installed on each one. Deployment groups represent the physical environments; for example, “Dev”, “Test”, “UAT”, and “Production”. In effect, a deployment group is just another grouping of agents, much like an agent pool.
+
+Environments:
+
+Environment represents a collection of resources such as namespaces within Kubernetes clusters, Azure Web Apps, virtual machines, databases, which can be targeted by deployments from a pipeline.
+  
+
 
 Git:
 1.What is difference b/w Rebase and Merge?
