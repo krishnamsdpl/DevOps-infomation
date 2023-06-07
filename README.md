@@ -50,7 +50,26 @@ A deployment group is a logical set of deployment target machines that have agen
 Environments:
 
 Environment represents a collection of resources such as namespaces within Kubernetes clusters, Azure Web Apps, virtual machines, databases, which can be targeted by deployments from a pipeline.
-  
+
+
+What is azure Artifacts?
+
+Azure Artifacts enables developers to share their code efficiently and manage all their packages from one place. With Azure Artifacts, developers can publish packages to their feeds and share it within the same team, across organizations, and even publicly.
+
+Developers can also consume packages from different feeds and public registries such as NuGet.org or npmjs.com. Azure Artifacts supports multiple package types such as NuGet, npm, Python, Maven, and Universal Packages.
+
+Need to create new feed in artifacts 
+and create new pipeline for using need feed like Nuget--pack and push.
+then run pipeline along with feed once it get success add to feed to our pipeline.
+
+Just open build pipeline add task like nuget and added feed then run pipeline artifacts will store that place.
+
+2nd Way:
+
+Through visula studio create new project-- dependecy package source-browse some xyz feed 
+3rd way:
+
+and through run power shell will particaller command will configure we use it.
 
 
 Git:
