@@ -110,6 +110,7 @@ squash merge gives you just the file changes, and a regular merge gives you the 
 As a refresher, the difference between a “squash commit” and a “merge commit” is that a regular “merge” includes all the Git commits in the history of the target branch, while “squash” flattens them to one commit.
 
 AKS:
+
 1) Why is load balancer needed?
 
 A load balancer is needed because it gives a standard way to distribute network traffic among different services, which runs in the backend.
