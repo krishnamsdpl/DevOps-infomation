@@ -161,6 +161,31 @@ Both ingress controllers and K8s services require an external load balancer. So,
 
 6. F5 Container Ingress
 
+08-06-2023:
+What is a Kubernetes Manifest File?
+
+A Kubernetes manifest file is your personal guide through a Kubernetes cluster: A configuration file written in a format called YAML or JSON,
+that describes the resources you want in your cluster.
+
+These resources can be a myriad of things:
+
+pods (that run your applications), 
+
+services (that help your applications communicate), 
+
+deployments (that manage your applications).
+
+What is Helm?
+
+Helm is a tool that automates the creation, packaging, configuration, and deployment of Kubernetes applications by combining your configuration files into a single reusable package.
+
+In a microservice architecture, you create more microservices as the application grows, making it increasingly difficult to manage.
+
+Helm provides one of the most accessible solutions to this problem, making deployments more consistent, repeatable, and reliable
+
+Helm Charts:
+
+A Helm chart is a package that contains all the necessary resources to deploy an application to a Kubernetes cluster. This includes YAML configuration files for deployments, services, secrets, and config maps that define the desired state of your application 
 
 
 Terraform:
