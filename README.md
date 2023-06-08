@@ -72,6 +72,32 @@ Through visula studio create new project-- dependecy package source-browse some 
 and through run power shell will particaller command will configure we use it.
 
 
+What is Azure Key Vault secrets?
+
+Azure Key Vault enables developers to securely store and manage secrets such as API keys, credentials or certificates. Azure Key Vault service supports two types of containers: vaults and managed HSM (hardware security module) pools. Vaults support storing software and HSM-backed keys, secrets, and certificates, while managed HSM pools only support HSM-backed keys.
+
+Need to create azure key-vault in azure portal and configure with azure pipeline 
+
+Goto key-valut navigation bar and create key-vault. 
+
+How to create Azure key vaults?
+
+Release pipeline ---agent --> tasks--Display name-->select azure subscription-->select key-vault-->secrets filter
+
+Tasks: 
+
+https://learn.microsoft.com/en-us/azure/devops/pipelines/release/azure-key-vault?view=azure-devops&tabs=yaml
+
+1.Key vault tasks
+2.Powershell tasks
+3.Copy file to
+4.Publish build artifacts
+
+ 
+
+
+
+
 Git:
 1.What is difference b/w Rebase and Merge?
 
