@@ -89,8 +89,11 @@ Tasks:
 https://learn.microsoft.com/en-us/azure/devops/pipelines/release/azure-key-vault?view=azure-devops&tabs=yaml
 
 1.Key vault tasks
+
 2.Powershell tasks
+
 3.Copy file to
+
 4.Publish build artifacts
 
  
