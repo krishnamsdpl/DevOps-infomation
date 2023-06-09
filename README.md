@@ -97,7 +97,7 @@ https://learn.microsoft.com/en-us/azure/devops/pipelines/release/azure-key-vault
 4.Publish build artifacts
 
  
-
+https://learn.microsoft.com/en-us/azure/devops/pipelines/release/deploy-using-approvals?view=azure-devops
 
 
 
