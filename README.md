@@ -291,3 +291,43 @@ Multiple Accounts/Subscriptions: Create infrastructure in multiple accounts.
 Testing and Research: Quickly create a new infrastructure for temporary pilot testing, freely experiment or R&D purpose, and destroy it with single command.
 
 
+Power shell:
+
+Features of PowerShell
+
+https://www.javatpoint.com/features-of-powershell
+
+1.Windows PowerShell Workflow
+
+2.Desired State Configuration
+
+3.Background job
+
+4.Scheduled job
+
+5.Error-handling
+
+6.PowerShell remoting
+
+7. Script debugging
+
+9. Tab expansion
+
+11. Steppable pipeline
+
+13. Constrained runspaces
+
+15. Windows PowerShell web access
+
+17. Network file transfer
+
+19. Windows PowerShell Integrated Scripting Environment (ISE)
+
+21. Transactions
+
+
+
+
+
+
+
