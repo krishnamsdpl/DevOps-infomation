@@ -326,6 +326,18 @@ https://www.javatpoint.com/features-of-powershell
 21. Transactions
 
 
+Jenkins:
+
+Syntax: The syntax for Scripted Pipeline is based on Groovy scripting language, while the syntax for Declarative Pipeline is based on YAML syntax.
+
+Flexibility: Scripted Pipeline provides more flexibility and control over the pipeline workflow, while Declarative Pipeline provides a simpler and more structured syntax.
+
+Error handling: Scripted Pipeline allows for more granular error handling and recovery mechanisms, while Declarative Pipeline provides a simpler error handling mechanism that is more intuitive and easier to understand.
+
+Code reuse: Scripted Pipeline allows for more code reuse and modularity, while Declarative Pipeline is designed to be more self-contained and less reliant on external scripts and libraries.
+
+Readability: Declarative Pipeline is designed to be more readable and easier to understand, while Scripted Pipeline can be more complex and verbose.
+
 
 
 
