@@ -111,6 +111,25 @@ while rebasing creates a linear history by moving your feature branch onto the t
 squash merge gives you just the file changes, and a regular merge gives you the file changes and the commit history
 
 As a refresher, the difference between a “squash commit” and a “merge commit” is that a regular “merge” includes all the Git commits in the history of the target branch, while “squash” flattens them to one commit.
+ 
+3.What is git stash?
+
+This command can be used when we want to save our work without staging or committing the code to our Git repository and want to switch between branches.
+
+git stash-u: This command is used when we want to stash the untracked files.
+
+git stash pop: This command is used when we are back on our branch and want to retrieve the code
+
+Git fetch:
+
+When we use the command git fetch, 
+Git gathers any commit from the target branch that does not exist in our current branch and stores it in our local repository. 
+However, it does not merge it with our current branch.
+
+git pull:
+
+The git pull command first runs ‘git fetch’ which downloads the content from the specified remote repository and then immediately updates the local repo to match the content.
+
 
 AKS:
 
