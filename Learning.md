@@ -4,7 +4,7 @@ Git
 
 Github
 
-DOcker
+Docker
 
 Kubernetes
 
