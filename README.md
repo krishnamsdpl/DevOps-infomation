@@ -24,6 +24,19 @@ Ans: Microsoft-hosted agents If your pipelines are in Azure Pipelines, then you'
 
 Self-hosted agents An agent that you set up and manage on your own to run jobs is a self-hosted agent. You can use self-hosted agents in Azure Pipelines or Azure DevOps Server, formerly named Team Foundation Server (TFS). Self-hosted agents give you more control to install dependent software needed for your builds and deployments. Also, machine-level caches and configuration persist from run to run, which can boost speed.
 
+16-06-2023:
+
+Rolling Deployment:
+
+A rolling deployment is a deployment strategy that updates running instances of an application with the new release. 
+All nodes in a target environment are incrementally updated with the service or artifact version in integer N batches.
+
+Pros:
+The benefits of a rolling deployment are that it is relatively simple to roll back, less risky than a basic deployment, and the implementation is simple. 
+
+Cons:
+Since nodes are updated in batches, rolling deployments require services to support both new and old versions of an artifact. Verification of an application deployment at every incremental change also makes this deployment slow.
+
 3-06-2023:
 
 How to enable ci/CD?
