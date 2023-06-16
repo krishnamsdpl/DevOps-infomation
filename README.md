@@ -61,6 +61,8 @@ Canary deployments allow organizations to test in production with real users and
 Cons:
 Drawbacks to canary deployments involve testing in production and the implementations needed. Scripting a canary release can be complex: manual verification or testing can take time, and the required monitoring and instrumentation for testing in production may involve additional research.
 
+https://www.harness.io/blog/blue-green-canary-deployment-strategies
+
 
 
 3-06-2023:
