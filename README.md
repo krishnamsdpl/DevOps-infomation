@@ -326,6 +326,8 @@ Key Points:
 5.Workspaces are the successor to old Terraform Environments.
 
 
+
+
 Use Cases
 Workspaces are convenient in a number of situations:
 
