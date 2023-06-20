@@ -278,6 +278,21 @@ Helm Charts:
 A Helm chart is a package that contains all the necessary resources to deploy an application to a Kubernetes cluster. This includes YAML configuration files for deployments, services, secrets, and config maps that define the desired state of your application 
 
 
+20-06-2023:
+Troubleshooting Common Kubernetes Errors?
+
+1.CreateContainerConfigError
+
+2.ImagePullBackOff or ErrImagePull
+
+3.CrashLoopBackOff
+kubectl describe pod [name]
+
+4.Kubernetes Node Not Ready
+
+https://komodor.com/learn/kubernetes-troubleshooting-the-complete-guide/#:~:text=Kubernetes%20troubleshooting%20is%20the%20process,prevent%20issues%20in%20Kubernetes%20components.
+
+
 Terraform:
 
 All defined variables must have values in order to run Terraform code.
