@@ -140,9 +140,13 @@ https://learn.microsoft.com/en-us/azure/devops/pipelines/release/azure-key-vault
  
 https://learn.microsoft.com/en-us/azure/devops/pipelines/release/deploy-using-approvals?view=azure-devops
 
+21-06-2023:
+
+https://www.azuredevopslabs.com/labs/vstsextend/azurekeyvault/
 
 
 Git:
+
 1.What is difference b/w Rebase and Merge?
 
 Merging is a safe option that preserves the entire history of your repository, 
