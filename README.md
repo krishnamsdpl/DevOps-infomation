@@ -293,6 +293,18 @@ kubectl describe pod [name]
 https://komodor.com/learn/kubernetes-troubleshooting-the-complete-guide/#:~:text=Kubernetes%20troubleshooting%20is%20the%20process,prevent%20issues%20in%20Kubernetes%20components.
 
 
+What is a Service in k8s?
+
+A service is a k8s object that exposes an application running in one or many pods as a “network service”
+
+What is an Endpoint in k8s
+
+An Endpoint is a k8s object that lists all the addresses (IP addresses and Ports) that are used by a service
+
+Endpoints in Kubernetes is a resource to track the IP addresses of the objects or pods which are dynamically assigned to it and which works as a service selector which matches a pod label by adding the IP addresses to the endpoints and these points can be viewed using software kubectl get endpoints.
+
+
+
 Terraform:
 
 All defined variables must have values in order to run Terraform code.
