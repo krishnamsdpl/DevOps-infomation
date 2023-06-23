@@ -145,6 +145,52 @@ https://learn.microsoft.com/en-us/azure/devops/pipelines/release/deploy-using-ap
 https://www.azuredevopslabs.com/labs/vstsextend/azurekeyvault/
 
 
+Dot net application—build pipeline:
+
+Build pipeline:
+
+.Net core
+
+MSbuild
+
+Replace token—optional 
+
+Copyfile
+
+Publish build artifacts
+
+
+Release pipeline.
+
+Function apps
+
+Web apps
+
+Logic apps
+
+APIM
+
+Release pipeline:
+Function apps--   Azure function app
+                               Azure key vault 
+Web apps    ----- Azure app service deploy
+
+
+Logic Apps:  ARM Template deployment 
+                       Azure App service Deploy
+                        Azure key vault 
+
+APIM:  ARM template deployment 
+              
+SQL/ mysql/ Oracle DB connection:
+
+https://www.nitorinfotech.com/blog/databases-using-azure-devops
+
+Azure key vault:
+https://medium.com/geekculture/how-to-use-key-vault-secrets-in-azure-pipelines-658198f2eea6
+
+
+
 Git:
 
 1.What is difference b/w Rebase and Merge?
