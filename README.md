@@ -221,6 +221,11 @@ git pull:
 
 The git pull command first runs ‘git fetch’ which downloads the content from the specified remote repository and then immediately updates the local repo to match the content.
 
+Git merge tool setup.
+
+git config --global merge.tool p4merge
+git config --global mergetool.p4merge.cmd 'p4merge.exe \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"'
+
 
 AKS:
 
