@@ -472,7 +472,9 @@ https://www.javatpoint.com/features-of-powershell
 
 Jenkins:
 
-Syntax: The syntax for Scripted Pipeline is based on Groovy scripting language, while the syntax for Declarative Pipeline is based on YAML syntax.
+Syntax: 
+The syntax for Scripted Pipeline is based on Groovy scripting language, 
+while the syntax for Declarative Pipeline is based on YAML syntax.
 
 Flexibility: Scripted Pipeline provides more flexibility and control over the pipeline workflow, while Declarative Pipeline provides a simpler and more structured syntax.
 
@@ -481,6 +483,28 @@ Error handling: Scripted Pipeline allows for more granular error handling and re
 Code reuse: Scripted Pipeline allows for more code reuse and modularity, while Declarative Pipeline is designed to be more self-contained and less reliant on external scripts and libraries.
 
 Readability: Declarative Pipeline is designed to be more readable and easier to understand, while Scripted Pipeline can be more complex and verbose.
+
+Declarative pipelines break down stages into multiple steps, while in scripted pipelines there is no need for this
+
+Declarative pipelines example:
+pipeline {
+  agent { label 'node-1' }
+  stages {
+    stage('Source') {
+      steps {
+        git 'https://github.com/digitalvarys/jenkins-tutorials.git''
+      }
+    }
+    stage('Compile') {
+      tools {
+        gradle 'gradle4'
+      }
+      steps {
+        sh 'gradle clean compileJava test'
+      }
+    }
+  }
+}
 
 
 Docker:
