@@ -189,7 +189,7 @@ https://www.nitorinfotech.com/blog/databases-using-azure-devops
 Azure key vault:
 https://medium.com/geekculture/how-to-use-key-vault-secrets-in-azure-pipelines-658198f2eea6
 
-
+Unlike variables, pipeline parameters can't be changed by a pipeline while it's running. Parameters have data types such as number and string, and they can be restricted to a subset of values. Restricting the parameters is useful when a user-configurable part of the pipeline should take a value only from a constrained list.
 
 Git:
 
