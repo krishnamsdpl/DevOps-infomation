@@ -483,6 +483,18 @@ Code reuse: Scripted Pipeline allows for more code reuse and modularity, while D
 Readability: Declarative Pipeline is designed to be more readable and easier to understand, while Scripted Pipeline can be more complex and verbose.
 
 
+Docker:
+
+Run in detached mode:
+This is great so far, but our sample application is a web server and we should not have to have our terminal connected to the container.t
+Docker can run your container in detached mode, that is in the background. To do this, we can use the --detach or -d for short. 
+Docker will start your container the same as before but this time will “detach” from the container and return you to the terminal prompt.
+
+Docker build
+Docker kill
+
+
+
 
 
 
