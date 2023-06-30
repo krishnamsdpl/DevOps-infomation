@@ -358,7 +358,24 @@ An Endpoint is a k8s object that lists all the addresses (IP addresses and Ports
 
 Endpoints in Kubernetes is a resource to track the IP addresses of the objects or pods which are dynamically assigned to it and which works as a service selector which matches a pod label by adding the IP addresses to the endpoints and these points can be viewed using software kubectl get endpoints.
 
+What is difference b/w API Gateway and Load Balancer?
 
+An API gateway vs. load balancer comparison can be boiled down to the fact that they both manage traffic entering your website or application but have different roles.
+An API gateway handles authentication and security policies, while a load balancer API distributes network traffic across multiple servers
+
+ Authentication – Authenticates incoming requests and verifies if the user has access to those resources. 
+ 
+ Authorization - Controls what data or services the user is allowed to access.
+ 
+ Rate Limiting - Limits the number of requests that can be made within a certain time frame.  
+ 
+ Logging - Logs requests and responses to help with troubleshooting, debugging, and auditing.
+ 
+ Load balanceing 
+
+SSL Offloading – Takes responsibility for managing encryption/decryption of HTTPS traffic. 
+HTTP Compression – Compresses web pages to reduce the amount of data sent over the network. 
+Content Caching – Stores frequently used content in a cache, so it can be quickly retrieved when needed.
 
 Terraform:
 
