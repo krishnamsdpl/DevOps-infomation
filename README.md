@@ -434,6 +434,8 @@ Multiple Accounts/Subscriptions: Create infrastructure in multiple accounts.
 
 Testing and Research: Quickly create a new infrastructure for temporary pilot testing, freely experiment or R&D purpose, and destroy it with single command.
 
+What is Provisioners
+
 
 Power shell:
 
