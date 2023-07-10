@@ -41,6 +41,8 @@ Blue-Green Deployment
 
 Blue-green deployment is a deployment strategy that utilizes two identical environments, a “blue” (aka staging) and a “green” (aka production) environment with different versions of an application or service. Quality assurance and user acceptance testing are typically done within the blue environment that hosts new versions or changes. User traffic is shifted from the green environment to the blue environment once new changes have been testing and accepted within the blue environment. You can then switch to the new environment once the deployment is successful.
 
+https://www.harness.io/blog/blue-green-canary-deployment-strategies
+
 
 ![image](https://github.com/krishnamsdpl/krishnamsdpl.github.io/assets/30367367/8afd08b8-683f-49b5-b111-f85edc21a64d)
 
