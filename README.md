@@ -76,6 +76,27 @@ Release pipeline-- release --contiune deployment trigger.
 
 What is Azure Artifacts?
 
+Azure Artifacts enables developers to share their code efficiently and manage all their packages from one place. With Azure Artifacts, developers can publish packages to their feeds and share it within the same team, across organizations, and even publicly.
+1.	Centralized Package Management:
+•	Azure Artifacts provides a centralized location to store and manage all your organization's software artifacts and packages.
+2.	Support for Multiple Package Types:
+•	It supports various package formats, including NuGet, npm, Maven, and Python packages. This allows you to manage dependencies for a wide range of projects and applications.
+3.	Private Feeds for Secure Package Storage:
+•	You can create private feeds to store sensitive or proprietary packages securely within your organization. This ensures that only authorized team members can access and use these packages.
+
+What is difference b/w Varible and variable group?
+Variables:
+Scope: Variables are defined at the pipeline level. They are specific to a single pipeline and can be used within that pipeline and its stages, jobs, and tasks.
+Syntax :
+variables:
+  myVariable: 'someValue'
+
+Variable Groups:
+Scope: Variable groups are defined at the project or organization level. They can be used across multiple pipelines within the same project or across projects in the organization
+Syntax:
+variables:
+  - group: 'MyVariableGroup'
+
 
 What Is Deployment groups?
 
@@ -264,7 +285,9 @@ The major difference between a replication controller and replica set is that th
 
 3.What difference b/w Deployments, statefulset and daemonsetes?
 
-Deployments are great for stateless applications that can be easily scaled horizontally. StatefulSets are great for applications that require persistent storage and have state that needs to be maintained DaemonSets are great for running an application on every node in the cluster.
+Deployments are great for stateless applications that can be easily scaled horizontally. 
+StatefulSets are great for applications that require persistent storage and have state that needs to be maintained 
+DaemonSets are great for running an application on every node in the cluster.
 
 4.What is auto scalling ? 
 
