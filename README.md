@@ -432,6 +432,14 @@ Key Points:
 Use Cases
 Workspaces are convenient in a number of situations:
 
+Terraform with Azure Devops like pipeline:
+
+Terraform validator stage
+Terraforminstaller@1
+TerraformTask@1-init, validator
+TerraformTask@1 -init, plan,apply
+
+
 Multiple Environments:
 
 One common need in infrastructure management is to build multiple environments, with mostly the same setup but keeping a few variables different, like networking and sizing.
